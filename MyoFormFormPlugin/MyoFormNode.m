@@ -11,7 +11,7 @@
 @implementation MyoFormNode
 
 + (NSString *)defaultName {
-    return @"MyoForm";
+    return @"Thalmic Labs Myo";
 }
 
 + (NSString *)processClassName {
@@ -21,10 +21,17 @@
 - (instancetype)init {
     if ((self = [super init]) != nil) {
         // Inputs
-        [self addPort:[[FMRPrimitiveInputPort alloc] initWithName:@"On / Off" uniqueKey:@"Form.onOffInput" defaultValue:[PMRPrimitive primitiveWithBooleanValue:NO]] portGroup:nil];
+        [self addPort:[[FMRPrimitiveInputPort alloc] initWithName:@"Connect" uniqueKey:@"Form.connect" defaultValue:[PMRPrimitive primitiveWithBooleanValue:NO]] portGroup:nil];
         
         // Outputs
-        [self addPort:[[FMRPrimitiveOutputPort alloc] initWithName:@"Color" uniqueKey:@"Form.colorOutput"] portGroup:nil];
+        [self addPort:[[FMRPrimitiveOutputPort alloc] initWithName:@"X Acceleration" uniqueKey:@"Form.xAcceleration"] portGroup:@"Accceleration"];
+        [self addPort:[[FMRPrimitiveOutputPort alloc] initWithName:@"Y Acceleration" uniqueKey:@"Form.yAcceleration"] portGroup:@"Accceleration"];
+        [self addPort:[[FMRPrimitiveOutputPort alloc] initWithName:@"Z Acceleration" uniqueKey:@"Form.zAcceleration"] portGroup:@"Accceleration"];
+        
+        [self addPort:[[FMRPrimitiveOutputPort alloc] initWithName:@"Pitch" uniqueKey:@"Form.pitch"] portGroup:@"Orientation"];
+        [self addPort:[[FMRPrimitiveOutputPort alloc] initWithName:@"Roll" uniqueKey:@"Form.roll"] portGroup:@"Orientation"];
+        [self addPort:[[FMRPrimitiveOutputPort alloc] initWithName:@"Yaw" uniqueKey:@"Form.yaw"] portGroup:@"Orientation"];
+        [self addPort:[[FMRPrimitiveOutputPort alloc] initWithName:@"Pose" uniqueKey:@"Form.pose"] portGroup:@"Pose"];
     }
     return self;
 }

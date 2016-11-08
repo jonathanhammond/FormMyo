@@ -10,7 +10,17 @@
 
 @interface MyoFormPatch : PMRPatch
 
-@property (nonatomic, readonly) PMRPrimitiveInputPort *onOffInput;
-@property (nonatomic, readonly) PMRPrimitiveOutputPort *colorOutput;
+@property (nonatomic, readonly) PMRPrimitiveInputPort *connect;
+@property (nonatomic, readonly) PMRPrimitiveOutputPort *xAcceleration;
+@property (nonatomic, readonly) PMRPrimitiveOutputPort *yAcceleration;
+@property (nonatomic, readonly) PMRPrimitiveOutputPort *zAcceleration;
+@property (nonatomic, readonly) PMRPrimitiveOutputPort *pitch;
+@property (nonatomic, readonly) PMRPrimitiveOutputPort *roll;
+@property (nonatomic, readonly) PMRPrimitiveOutputPort *yaw;
+@property (nonatomic, readonly) PMRPrimitiveOutputPort *pose;
+
+
+
+
 
 @end

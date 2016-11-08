@@ -59,6 +59,15 @@
 		A0D812161DD25AA9002A7CFC /* Performer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D812151DD25AA9002A7CFC /* Performer.framework */; };
 		A0D812181DD25AA9002A7CFC /* RelativeInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D812171DD25AA9002A7CFC /* RelativeInterface.framework */; };
 		A0D8121B1DD25AA9002A7CFC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0D812191DD25AA9002A7CFC /* LaunchScreen.xib */; };
+		A0D8122D1DD25AD0002A7CFC /* TLHMViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A0D8122B1DD25AD0002A7CFC /* TLHMViewController.h */; };
+		A0D8122E1DD25AD0002A7CFC /* TLHMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D8122C1DD25AD0002A7CFC /* TLHMViewController.m */; };
+		A0D8122F1DD25ADF002A7CFC /* MyoFormPerformPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D811C81DD25AA8002A7CFC /* MyoFormPerformPlugin.framework */; };
+		A0D812301DD25AE7002A7CFC /* Performer.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A0D812151DD25AA9002A7CFC /* Performer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A0D812311DD25AE7002A7CFC /* RelativeInterface.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A0D812171DD25AA9002A7CFC /* RelativeInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A0D812321DD25AE7002A7CFC /* MyoFormPerformPlugin.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A0D811C81DD25AA8002A7CFC /* MyoFormPerformPlugin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A0D812341DD25BAC002A7CFC /* MyoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D812331DD25BAC002A7CFC /* MyoKit.framework */; };
+		A0D812361DD26DCA002A7CFC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D812351DD26DCA002A7CFC /* SystemConfiguration.framework */; };
+		A0D812391DD26DE4002A7CFC /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D812381DD26DE4002A7CFC /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -68,6 +77,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				A0D812301DD25AE7002A7CFC /* Performer.framework in CopyFiles */,
+				A0D812311DD25AE7002A7CFC /* RelativeInterface.framework in CopyFiles */,
+				A0D812321DD25AE7002A7CFC /* MyoFormPerformPlugin.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +134,11 @@
 		A0D812171DD25AA9002A7CFC /* RelativeInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RelativeInterface.framework; path = ../Frameworks/RelativeInterface.framework; sourceTree = "<group>"; };
 		A0D8121A1DD25AA9002A7CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A0D8121C1DD25AA9002A7CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0D8122B1DD25AD0002A7CFC /* TLHMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLHMViewController.h; sourceTree = "<group>"; };
+		A0D8122C1DD25AD0002A7CFC /* TLHMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLHMViewController.m; sourceTree = "<group>"; };
+		A0D812331DD25BAC002A7CFC /* MyoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MyoKit.framework; sourceTree = "<group>"; };
+		A0D812351DD26DCA002A7CFC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SystemConfiguration.framework; sourceTree = "<group>"; };
+		A0D812381DD26DE4002A7CFC /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,7 +155,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0D812391DD26DE4002A7CFC /* CoreBluetooth.framework in Frameworks */,
+				A0D812341DD25BAC002A7CFC /* MyoKit.framework in Frameworks */,
 				A0D811D11DD25AA9002A7CFC /* RelativeInterface.framework in Frameworks */,
+				A0D812361DD26DCA002A7CFC /* SystemConfiguration.framework in Frameworks */,
 				A0D811CF1DD25AA9002A7CFC /* Performer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,6 +167,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0D8122F1DD25ADF002A7CFC /* MyoFormPerformPlugin.framework in Frameworks */,
 				A0D812181DD25AA9002A7CFC /* RelativeInterface.framework in Frameworks */,
 				A0D812161DD25AA9002A7CFC /* Performer.framework in Frameworks */,
 			);
@@ -162,6 +183,7 @@
 				A0D811C91DD25AA8002A7CFC /* MyoFormPerformPlugin */,
 				A0D811DD1DD25AA9002A7CFC /* MyoFormViewer */,
 				A0D811B21DD25AA7002A7CFC /* Products */,
+				A0D812371DD26DE4002A7CFC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -211,6 +233,8 @@
 			children = (
 				A0D811D21DD25AA9002A7CFC /* MyoFormPatch.h */,
 				A0D811D41DD25AA9002A7CFC /* MyoFormPatch.m */,
+				A0D8122B1DD25AD0002A7CFC /* TLHMViewController.h */,
+				A0D8122C1DD25AD0002A7CFC /* TLHMViewController.m */,
 				A0D811D61DD25AA9002A7CFC /* Info.plist */,
 				A0D811CD1DD25AA9002A7CFC /* Frameworks */,
 				A0D811CA1DD25AA8002A7CFC /* Supporting Files */,
@@ -229,6 +253,8 @@
 		A0D811CD1DD25AA9002A7CFC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A0D812351DD26DCA002A7CFC /* SystemConfiguration.framework */,
+				A0D812331DD25BAC002A7CFC /* MyoKit.framework */,
 				A0D811CE1DD25AA9002A7CFC /* Performer.framework */,
 				A0D811D01DD25AA9002A7CFC /* RelativeInterface.framework */,
 			);
@@ -297,6 +323,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A0D812371DD26DE4002A7CFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0D812381DD26DE4002A7CFC /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -304,6 +338,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0D8122D1DD25AD0002A7CFC /* TLHMViewController.h in Headers */,
 				A0D811CC1DD25AA8002A7CFC /* MyoFormPerformPlugin-Prefix.pch in Headers */,
 				A0D811D31DD25AA9002A7CFC /* MyoFormPatch.h in Headers */,
 			);
@@ -496,6 +531,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0D811D51DD25AA9002A7CFC /* MyoFormPatch.m in Sources */,
+				A0D8122E1DD25AD0002A7CFC /* TLHMViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -678,6 +714,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/MyoFormPerformPlugin",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyoFormPerformPlugin/MyoFormPerformPlugin-Prefix.pch";
@@ -709,6 +746,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/MyoFormPerformPlugin",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyoFormPerformPlugin/MyoFormPerformPlugin-Prefix.pch";
@@ -741,7 +779,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyoFormViewer/MyoFormViewer-Prefix.pch";
 				INFOPLIST_FILE = MyoFormViewer/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JustAddMusicMedia.MyoFormViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -764,7 +802,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyoFormViewer/MyoFormViewer-Prefix.pch";
 				INFOPLIST_FILE = MyoFormViewer/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JustAddMusicMedia.MyoFormViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
