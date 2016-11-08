@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>MyoForm.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>MyoFormFormPlugin.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>MyoFormPerformPlugin.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>MyoFormViewer.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>A0D811AC1DD25AA7002A7CFC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A0D811B01DD25AA7002A7CFC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A0D811C71DD25AA8002A7CFC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A0D811DB1DD25AA9002A7CFC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
